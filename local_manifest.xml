@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- Dependencies -->
+ <project path="device/mediatek/sepolicy" name="0AnyKey0/android_device_mediatek_sepolicy.git" remote="github" revision="lineage-17.1" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/dandelion" name="0AnyKey0/device_xiaomi_dandelion.git" remote="github" revision="eleven" />
  <project path="vendor/xiaomi/dandelion" name="0AnyKey0/vendor_xiaomi_dandelion.git" remote="github" revision="eleven" />
